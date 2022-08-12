@@ -36,12 +36,12 @@
 
   ## Demo
 
-  You can view walk through video by pressing [this link]() .
+  You can view walk through video by pressing [this link](https://drive.google.com/file/d/1JL_C_5yx5FeBEHAYASdoJDbNdqKxRsCT/view) .
 
   ## Screenshot 
 
-  ![image]()
-  ![image]()
+  ![image](./media/screenshot.png)
+  ![image](./media/emp-tracker.gif)
 
   ## Questions
   If you have any questions regarding the project you can contact me directly at artlil420@gmail.com.
