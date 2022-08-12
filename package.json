@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "  - Application that allows to manage company's employee database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur0705/Employee-tracker.git"
+  },
+  "author": "Artur Aleksanyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artur0705/Employee-tracker/issues"
+  },
+  "homepage": "https://github.com/Artur0705/Employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
