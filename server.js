@@ -453,7 +453,7 @@ updateManager = async () => {
   showEmployeeDepartment = async () => {
     console.log("Showing employee by departments...\n");
     const sql = await fs.readFile(
-      "./db/query/showEmployeeDepartment.sql",
+      "./db/query/viewEmployeeDepartment.sql",
       "utf8"
     );
   
@@ -566,7 +566,7 @@ updateManager = async () => {
   showBudget = async () => {
     console.log("Showing budget by department...\n");
   
-    const sql = await fs.readFile("./db/query/showBudget.sql", "utf8");
+    const sql = await fs.readFile("./db/query/viewBudget.sql", "utf8");
   
     connection.promise().query(sql, (err, rows) => {
       if (err) throw err;
